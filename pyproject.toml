@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "split-video-with-subs"
+version = "0.1.0"
+description = ""
+authors = ["Paul Fegan <pfegan415@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+moviepy = "^1.0.3"
+pysrt = "^1.1.2"
+imageio = {extras = ["ffmpeg"], version = "^2.33.1"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,1 @@
+poetry run python split_video_with_subs/split_video_with_subs.py -sv tests/input/superman_1941_512kb.mp4 -ss tests/input/superman_1941_512kb.srt -st 300 -o tests/output/superman_1941_512kb
